@@ -1,0 +1,18 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+
+   char ch;
+   cin >> ch; // INITALISATION
+   int cnt = 0;
+   while (ch != '$')
+   { // CONDTION CHECK
+      cnt++;
+
+      cin >> ch; // updation
+   }
+   cout << cnt;
+
+   return 0;
+}
